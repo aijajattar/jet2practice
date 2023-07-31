@@ -3,7 +3,9 @@ using System.Diagnostics;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
+
 {
+    //This is a Home Controller
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
